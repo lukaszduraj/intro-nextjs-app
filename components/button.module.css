@@ -1,0 +1,12 @@
+.button {
+    outline: none;
+    border: 1px red solid;
+}
+
+
+/*Syntax error: Selector "div" is not pure (pure selectors must contain at least one local class or id)*/
+/*div {*/
+/*    background-color: red;*/
+/*    !*You can inherit selectors behavior§*!*/
+/*    composes: button;*/
+/*}*/

@@ -1,6 +1,4 @@
-import './globals.css'
-
-export default function RootLayout({
+export default function BlogLayout({
   children,
 }: {
   children: React.ReactNode
@@ -12,7 +10,10 @@ export default function RootLayout({
         head.tsx. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
       */}
       <head />
-      <body>{children}</body>
+      <body>
+      <div>this is layout</div>
+      <div>{children}</div>
+      </body>
     </html>
   )
 }
